@@ -20,9 +20,6 @@ public class College {
     public String name;
     public String location;
     public String websiteUrl;
-//
-//    @OneToMany(mappedBy = "college", cascade = CascadeType.ALL)
-//    public List<Department> departments;
 
     @OneToMany(mappedBy = "college",cascade= CascadeType.ALL)
     private List<Department> department;
