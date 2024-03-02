@@ -40,7 +40,7 @@ public class Collegeservice {
 
     public String deletecollege(int id) {
         repo.deleteById(id);
-        return "student data is deleted with  " + id;
+        return "college data is deleted with  " + id;
     }
 
 
