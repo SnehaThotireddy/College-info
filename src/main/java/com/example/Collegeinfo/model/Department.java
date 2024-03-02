@@ -25,9 +25,6 @@ public class Department {
     @JoinColumn(name = "college_id" ,referencedColumnName = "id")
     public College college;
 
-//    @OneToMany(mappedBy = "department", cascade = CascadeType.ALL)
-//    public List<Faculty> faculties;
-
 
 
 }
