@@ -22,12 +22,6 @@ public class Faculty {
 
     public int experienceYears; // Years of experience
 
-//    @ManyToOne
-//    @JsonIgnore
-//    @JoinColumn(name = "department_id" ,referencedColumnName = "id")
-//
-//    public Department department;
-
     @ManyToOne
     @JsonIgnore
     @JoinColumn(name = "college_id",referencedColumnName = "id")
